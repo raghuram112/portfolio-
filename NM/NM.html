@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ece140;
+        }
+
+        header {
+            background-color: #cf9865;
+            color: #0b18ca;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 1.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 200px; /* Adjust the size as needed */
+            height: 200px;
+            border-radius: 100%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 10px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background-color: #964242;
+            color: #c954d8;
+            text-align: center;
+            border-radius:20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #f8faf3;
+        }
+
+        .section-content {
+            background-color: #f0e690;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(185, 133, 133, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="kprcas.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>RAGHURAM S</h1>
+            <p>B.SC IT STUDENT</p>
+            <p>KPR College of Arts Science College</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About me</h2>
+            <p>I am a motivated college student pursuing a B.Sc in Information Technology at KPRCAS. With a strong passion for product development, I have gained hands-on experience through various projects.In addition to my academic pursuits, I am actively involved in volunteer work, developing skills such as teamwork, leadership, and communication.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>
+                <strong>Bachelor of Science in Information Technology (B.Sc IT)</strong><br>
+               <em>KPRCAS, Coimbatore</em><br>
+               </p>
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <li><strong>Technical Skills:</strong> C, C++, Java, HTML, CSS, Basic knowledge of JavaScript, MySQL.</li>
+            <li><strong>Soft Skills:</strong> Problem-solving, teamwork, communication, time management.</li>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Event Management system</a></li>
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="resume.pdf" download class="btn">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 RAGHURAM</p>
+    </footer>
+
+</body>
+</html>
